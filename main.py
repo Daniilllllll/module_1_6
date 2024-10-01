@@ -9,8 +9,8 @@ my_dict['d'] = 45007
 print(my_dict['d'])
 
 my_dict.update({'g': 3456, 'q': 6718})
-UD = my_dict.pop('a')
-print(UD)
+my_dict.pop('a')
+print(my_dict.get('a'))
 
 print(my_dict)
 
